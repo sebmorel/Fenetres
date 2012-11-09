@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/root">
+        <file alias="bullet_accept">icons/1311770677_bullet_accept.png</file>
+        <file alias="bullet_deny">icons/1311770680_bullet_deny.png</file>
+    </qresource>
+</RCC>

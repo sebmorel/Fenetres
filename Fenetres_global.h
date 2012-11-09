@@ -1,0 +1,12 @@
+#ifndef FENETRES_GLOBAL_H
+#define FENETRES_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(FENETRES_LIBRARY)
+#  define FENETRESSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define FENETRESSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // FENETRES_GLOBAL_H
